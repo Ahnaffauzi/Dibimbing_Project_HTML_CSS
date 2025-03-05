@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SpaceEdits - Video Editing Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Navigation -->
+  <nav>
+    <div class="logo">My Porto!</div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Header Section -->
+  <header class="space-bg">
+    <div class="header-content">
+      <h1>Hi, I'm Yazid</h1>
+      <p>
+        Video Editor specializing in animation with Three+ years After Effects experience.
+        <br />
+        I love transforming ideas into visual stories!
+      </p>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="space-bg">
+    <h2>About Me</h2>
+    <div class="about-content">
+      <p>
+        🔭 Currently exploring motion graphics<br />
+        🎬 After Effects Enthusiast<br />
+        🚀 I love exploring the celestial realm
+      </p>
+    </div>
+  </section>
+
+  <!-- My Works Section -->
+  <section id="projects">
+    <h2>My Works</h2>
+    <div class="categories">
+      <button class="active" data-category="all"><p>All</p></button>
+      <button data-category="amv"><p>AMV</p></button>
+      <button data-category="animation"><p>Animation</p></button>
+    </div>
+
+    <div class="portfolio-grid">
+      <!-- AMV Section -->
+      <div class="portfolio-item amv" data-description="Action AMV featuring various anime scenes.">
+        <video class="preview" muted loop preload="metadata">
+          <source src="amv/3d/b31.mp4" type="video/mp4" />
+        </video>
+        <div class="item-info">
+          <h3>Your Name</h3>
+          <p>My favorite edit I made</p>
+        </div>
+      </div>
+
+      <div class="portfolio-item amv" data-description="I gather all the beauty scene from Your Name.">
+        <video class="preview" muted loop preload="metadata">
+          <source src="amv/simple/bs1.mp4" type="video/mp4" />
+        </video>
+        <div class="item-info">
+          <h3>The Beauty of Your Name</h3>
+          <p>This is absolute beauty!</p>
+        </div>
+      </div>
+
+      <div class="portfolio-item amv" data-description="L for Kokoro.">
+        <video class="preview" muted loop preload="metadata">
+          <source src="amv/3d/b32.mp4" type="video/mp4" />
+        </video>
+        <div class="item-info">
+          <h3>Darling In The Franxx</h3>
+          <p>Kokoro wedding</p>
+        </div>
+      </div>
+
+      <div class="portfolio-item amv" data-description="I gather all the beauty scene from Weathering With You.">
+        <video class="preview" muted loop preload="metadata">
+          <source src="amv/simple/bs2.mp4" type="video/mp4" />
+        </video>
+        <div class="item-info">
+          <h3>The Beauty of Weathering With You</h3>
+          <p>This is also absolute beauty!</p>
+        </div>
+      </div>
+
+      <div class="portfolio-item amv" data-description="Collaboration with other AMV maker.">
+        <video class="preview" muted loop preload="metadata">
+          <source src="amv/3d/33.mp4" type="video/mp4" />
+        </video>
+        <div class="item-info">
+          <h3>Violet Evergarden</h3>
+          <p>Trillab(?)</p>
+        </div>
+      </div>
+
+      <div class="portfolio-item amv" data-description="RIP.">
+        <video class="preview" muted loop preload="metadata">
+          <source src="amv/simple/s3.mp4" type="video/mp4" />
+        </video>
+        <div class="item-info">
+          <h3>Nisekoi</h3>
+          <p>Onodera!</p>
+        </div>
+      </div>
+
+      <div class="portfolio-item amv" data-description="Saddest backstab ever.">
+        <video class="preview" muted loop preload="metadata">
+          <source src="amv/3d/34.mp4" type="video/mp4" />
+        </video>
+        <div class="item-info">
+          <h3>Erased</h3>
+          <p>For nothing..</p>
+        </div>
+      </div>
+
+      <div class="portfolio-item amv" data-description="Levi's curse, warning!">
+        <video class="preview" muted loop preload="metadata">
+          <source src="amv/simple/s4.mp4" type="video/mp4" />
+        </video>
+        <div class="item-info">
+          <h3>Attack on Titan</h3>
+          <p>Levi!</p>
+        </div>
+      </div>
+
+      <div class="portfolio-item amv" data-description="Can I cry now?">
+        <video class="preview" muted loop preload="metadata">
+          <source src="amv/3d/35.mp4" type="video/mp4" />
+        </video>
+        <div class="item-info">
+          <h3>I Want to Eat Your Pancreas</h3>
+          <p>:'</p>
+        </div>
+      </div>
+
+      <div class="portfolio-item amv" data-description="Tanjiro vs Spider Guy.">
+        <video class="preview" muted loop preload="metadata">
+          <source src="amv/simple/s5.mp4" type="video/mp4" />
+        </video>
+        <div class="item-info">
+          <h3>Demon Slayer</h3>
+          <p>Tanjiro vs Spider Guy</p>
+        </div>
+      </div>
+
+      <!-- Animation Section-->
+      <div class="portfolio-item animation" data-description="Two dimensional Animation short film showcasing a cosmic journey.">
+        <video class="preview" muted loop preload="metadata">
+          <source src="amv/gabungan.mp4" type="video/mp4" />
+        </video>
+        <div class="item-info">
+          <h3>Neil deGrasse Tyson</h3>
+          <p>TwoD Animated biography of Neil deGrasse Tyson</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Star Background -->
+  <div class="stars" id="stars"></div>
+
+  <!-- Contact Section -->
+  <section id="contact" class="space-bg">
+    <h3>Get in Touch</h3>
+    <div class="contact-links">
+      <a href="https://www.youtube.com/@yazidahnaffauzi5003" target="https://www.youtube.com/@yazidahnaffauzi5003"><p>YouTube</p></a>
+      <a href="https://www.instagram.com/yazid.ahnaf/" target="https://www.instagram.com/yazid.ahnaf/"><p>Instagram</p></a>
+    </div>
+  </section>
+
+  <!-- Modal untuk fullscreen video dengan deskripsi -->
+  <div id="videoModal" class="modal">
+    <div class="modal-content">
+      <!-- Tombol close modal -->
+      <span class="close"></span>
+      <!-- Video modal: tanpa muted dan dengan kontrol -->
+      <video id="modalVideo" controls autoplay>
+        <source src="" type="video/mp4" />
+      </video>
+      <!-- Tempat deskripsi karya -->
+      <div id="videoDescription"></div>
+    </div>
+  </div>
+
+  <!-- Script -->
+  <script src="script.js"></script>
+</body>
+</html>
